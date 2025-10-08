@@ -2,7 +2,7 @@
 
 Summary: Qt6 - Qt3D QML bindings and C++ APIs
 Name:    qt6-qt3d
-Version: 6.7.2
+Version: 6.8.3
 Release: 0%{?dist}
 
 License: LGPL-3.0-only OR GPL-3.0-only WITH Qt-GPL-exception-1.0
