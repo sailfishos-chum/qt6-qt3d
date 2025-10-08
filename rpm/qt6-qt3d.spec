@@ -1,4 +1,4 @@
-%global  qt_version 6.7.2
+%global  qt_version 6.8.3
 
 Summary: Qt6 - Qt3D QML bindings and C++ APIs
 Name:    qt6-qt3d
@@ -89,6 +89,7 @@ popd
 %{_qt6_libdir}/libQt63DQuickInput.so.6*
 %{_qt6_libdir}/libQt63DQuickRender.so.6*
 %{_qt6_libdir}/libQt63DQuickScene2D.so.6*
+%{_qt6_libdir}/libQt63DQuickScene3D.so.6*
 %{_qt6_libdir}/libQt63DRender.so.6*
 %{_qt6_plugindir}/geometryloaders/
 %{_qt6_plugindir}/renderers/
@@ -110,6 +111,7 @@ popd
 %dir %{_qt6_libdir}/cmake/Qt63DQuickInput
 %dir %{_qt6_libdir}/cmake/Qt63DQuickRender/
 %dir %{_qt6_libdir}/cmake/Qt63DQuickScene2D
+%dir %{_qt6_libdir}/cmake/Qt63DQuickScene3D
 %dir %{_qt6_libdir}/cmake/Qt63DRender/
 %{_qt6_archdatadir}/mkspecs/modules/*.pri
 %{_qt6_includedir}/Qt3DAnimation
@@ -123,6 +125,7 @@ popd
 %{_qt6_includedir}/Qt3DQuickInput/
 %{_qt6_includedir}/Qt3DQuickRender/
 %{_qt6_includedir}/Qt3DQuickScene2D
+%{_qt6_includedir}/Qt3DQuickScene3D
 %{_qt6_includedir}/Qt3DRender/
 %{_qt6_libdir}/cmake/Qt6/FindWrapQt3DAssimp.cmake
 %{_qt6_libdir}/cmake/Qt6BuildInternals/StandaloneTests/Qt3DTestsConfig.cmake
@@ -137,6 +140,7 @@ popd
 %{_qt6_libdir}/cmake/Qt63DQuickInput/*.cmake
 %{_qt6_libdir}/cmake/Qt63DQuickRender/*.cmake
 %{_qt6_libdir}/cmake/Qt63DQuickScene2D/*.cmake
+%{_qt6_libdir}/cmake/Qt63DQuickScene3D/*.cmake
 %{_qt6_libdir}/cmake/Qt63DRender/*.cmake
 %{_qt6_libdir}/cmake/Qt6Qml/QmlPlugins/*.cmake
 %{_qt6_libdir}/libQt63DAnimation.prl
@@ -161,6 +165,8 @@ popd
 %{_qt6_libdir}/libQt63DQuickRender.so
 %{_qt6_libdir}/libQt63DQuickScene2D.prl
 %{_qt6_libdir}/libQt63DQuickScene2D.so
+%{_qt6_libdir}/libQt63DQuickScene3D.prl
+%{_qt6_libdir}/libQt63DQuickScene3D.so
 %{_qt6_libdir}/libQt63DRender.prl
 %{_qt6_libdir}/libQt63DRender.so
 %{_qt6_libdir}/qt6/metatypes/qt6*_metatypes.json
