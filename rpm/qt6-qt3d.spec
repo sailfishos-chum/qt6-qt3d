@@ -1,4 +1,4 @@
-%global  qt_version 6.8.3
+%global qt_version 6.8.4
 
 Summary: Qt6 - Qt3D QML bindings and C++ APIs
 Name:    qt6-qt3d
