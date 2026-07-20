@@ -140,7 +140,7 @@ popd
 %{_qt6_libdir}/cmake/Qt63DQuickAnimation/*.cmake
 %{_qt6_libdir}/cmake/Qt63DQuickExtras/*.cmake
 %{_qt6_libdir}/cmake/Qt63DQuickInput/*.cmake
-%{_qt6_libdir}/cmake/Qt3DQuickLogic/*.cmake
+%{_qt6_libdir}/cmake/Qt63DQuickLogic/*.cmake
 %{_qt6_libdir}/cmake/Qt63DQuickRender/*.cmake
 %{_qt6_libdir}/cmake/Qt63DQuickScene2D/*.cmake
 %{_qt6_libdir}/cmake/Qt63DQuickScene3D/*.cmake
