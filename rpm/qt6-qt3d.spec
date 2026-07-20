@@ -87,6 +87,7 @@ popd
 %{_qt6_libdir}/libQt63DQuickAnimation.so.6*
 %{_qt6_libdir}/libQt63DQuickExtras.so.6*
 %{_qt6_libdir}/libQt63DQuickInput.so.6*
+%{_qt6_libdir}/libQt63DQuickLogic.so.6*
 %{_qt6_libdir}/libQt63DQuickRender.so.6*
 %{_qt6_libdir}/libQt63DQuickScene2D.so.6*
 %{_qt6_libdir}/libQt63DQuickScene3D.so.6*
@@ -123,6 +124,7 @@ popd
 %{_qt6_includedir}/Qt3DQuickAnimation
 %{_qt6_includedir}/Qt3DQuickExtras
 %{_qt6_includedir}/Qt3DQuickInput/
+%{_qt6_includedir}/Qt3DQuickLogic/
 %{_qt6_includedir}/Qt3DQuickRender/
 %{_qt6_includedir}/Qt3DQuickScene2D
 %{_qt6_includedir}/Qt3DQuickScene3D
@@ -138,6 +140,7 @@ popd
 %{_qt6_libdir}/cmake/Qt63DQuickAnimation/*.cmake
 %{_qt6_libdir}/cmake/Qt63DQuickExtras/*.cmake
 %{_qt6_libdir}/cmake/Qt63DQuickInput/*.cmake
+%{_qt6_libdir}/cmake/Qt3DQuickLogic/*.cmake
 %{_qt6_libdir}/cmake/Qt63DQuickRender/*.cmake
 %{_qt6_libdir}/cmake/Qt63DQuickScene2D/*.cmake
 %{_qt6_libdir}/cmake/Qt63DQuickScene3D/*.cmake
@@ -161,6 +164,8 @@ popd
 %{_qt6_libdir}/libQt63DQuickExtras.so
 %{_qt6_libdir}/libQt63DQuickInput.prl
 %{_qt6_libdir}/libQt63DQuickInput.so
+%{_qt6_libdir}/libQt63DQuickLogic.prl
+%{_qt6_libdir}/libQt63DQuickLogic.so
 %{_qt6_libdir}/libQt63DQuickRender.prl
 %{_qt6_libdir}/libQt63DQuickRender.so
 %{_qt6_libdir}/libQt63DQuickScene2D.prl
